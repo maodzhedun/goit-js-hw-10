@@ -11,7 +11,7 @@ return axios.get(BASE_URL)
 }
 
 function fetchCatByBreed(breedId){ 
-    return axios.get(`${SEARCH_URL}?breed_ids=${breed_ids}`)
+    return axios.get(`${SEARCH_URL}?breed_ids=${breedId}`)
 }
 
 export{ fetchBreeds, fetchCatByBreed }
